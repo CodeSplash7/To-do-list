@@ -1,22 +1,24 @@
-*{
-  padding: 0; margin:0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body,
-html{
-  height:100vh;
+html {
+  height: 100vh;
+  background: rgb(244, 235, 190)
 }
 
-.nav{
+.nav {
   display: flex;
   height: 60px;
   background-color: rgb(28, 35, 33);
   position: relative;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 
-.logo{
+.logo {
   /* background-color:red; */
   justify-content: center;
   padding: 3px;
@@ -28,19 +30,46 @@ html{
   flex: 1;
 }
 
-.logo img{
+.logo img {
   /* width: 40px; */
   height: 50px;
   top: 50%;
   transform: translateY(-50%);
 }
 
-.item{
+.item {
   color: rgb(125, 152, 161);
   text-decoration: none;
   flex: 1;
 }
 
-.item1{
+.item1 {
   flex: .5;
+}
+
+.new-taskB {
+  width: 100px;
+  background-color: rgb(202, 255, 208);
+  width: 50vw;
+  height: 10vh;
+  text-align: center;
+  position: absolute;
+  bottom: 2vh;
+  left: 50vw;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  color: rgb(125, 152, 161);
+  transition: color .5s linear;
+  transition: background-color .5s linear;
+}
+
+.new-taskB p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.new-taskB:hover{
+  background-color: rgb(161, 204, 166);
+  color: rgb(73, 88, 92);
 }
