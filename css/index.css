@@ -6,7 +6,8 @@
 body,
 html {
   height: 100vh;
-  background: rgb(244, 235, 190)
+  background: rgb(244, 235, 190);
+  font-family: "MS Sans Serif", Geneva, sans-serif;
 }
 
 .nav {
@@ -68,8 +69,8 @@ html {
   transform: translateX(-50%);
   border-radius: 10px;
   color: rgb(125, 152, 161);
-  transition: color .3s linear;
-  transition: background-color .3s linear;
+  transition: color .3s linear, background-color .3s linear;  
+  box-shadow: 0 5px 5px black;
 }
 
 .new-taskB p {
@@ -81,4 +82,24 @@ html {
 .new-taskB:hover {
   background-color: rgb(161, 204, 166);
   color: rgb(73, 88, 92);
+}
+
+.todo-title {
+  font-size: 30px;
+  width: 40vw;
+  height: 10vh;
+  background-color: rgb(28, 35, 33);
+  position: relative;
+  top: 3vh;
+  left: 3vh;
+  text-align: center;
+  color: rgb(125, 152, 161);
+  border-radius: 10px;
+  box-shadow: 0 5px 5px black;
+}
+
+.todo-title p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
