@@ -41,10 +41,19 @@ html {
   color: rgb(125, 152, 161);
   text-decoration: none;
   flex: 1;
+  transition: color .1s linear
 }
 
 .item1 {
   flex: .5;
+}
+
+.item2 {
+  padding-left: 25px
+}
+
+.item:hover {
+  color: rgb(74, 91, 96);
 }
 
 .new-taskB {
@@ -59,8 +68,8 @@ html {
   transform: translateX(-50%);
   border-radius: 10px;
   color: rgb(125, 152, 161);
-  transition: color .5s linear;
-  transition: background-color .5s linear;
+  transition: color .3s linear;
+  transition: background-color .3s linear;
 }
 
 .new-taskB p {
@@ -69,7 +78,7 @@ html {
   transform: translateY(-50%);
 }
 
-.new-taskB:hover{
+.new-taskB:hover {
   background-color: rgb(161, 204, 166);
   color: rgb(73, 88, 92);
 }
