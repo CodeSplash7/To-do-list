@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background: rgba(255, 255, 0, .5);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.content div {
+  background: rgba(255, 0, 0, .5);
+  flex-grow: 1;
+  margin-bottom: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.content .tasks {
+  flex-grow: 5;
+}
+
+.content .new-taskB {
+  height: 1px;
+}
