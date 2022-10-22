@@ -163,11 +163,20 @@ html {
   border: 0px solid black;
   background: rgb(28, 35, 33);
   color: rgb(110, 152, 161);
-  text-align:center;
-  transition: all ease-in-out .1s
+  text-align: center;
+  transition: all ease-in-out .2s
 }
 
 .tasks button:hover {
   background-color: black;
   color: rgb(65, 90, 95);
+}
+
+.tasks button:active {
+  background: rgb(114, 143, 135);
+  color: rgb(37, 51, 54);
+}
+
+.tasks span {
+  color: rgb(110, 152, 161);
 }
